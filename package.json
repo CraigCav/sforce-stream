@@ -2,6 +2,9 @@
   "name": "sforce-stream",
   "version": "1.0.0",
   "description": "Stream from Salesforce REST API in 2000 record batches",
+  "scripts": {
+    "lint": "jscs ./"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/craigcav/sforce-stream.git"
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/craigcav/sforce-stream/issues"
   },
-  "homepage": "https://github.com/craigcav/sforce-stream#readme"
+  "homepage": "https://github.com/craigcav/sforce-stream#readme",
+  "devDependencies": {
+    "jscs": "^2.5.1"
+  }
 }
