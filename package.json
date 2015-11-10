@@ -1,0 +1,22 @@
+{
+  "name": "sforce-stream",
+  "version": "1.0.0",
+  "description": "Stream from Salesforce REST API in 2000 record batches",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigcav/sforce-stream.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "query",
+    "stream",
+    "REST",
+    "promise"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigcav/sforce-stream/issues"
+  },
+  "homepage": "https://github.com/craigcav/sforce-stream#readme"
+}
