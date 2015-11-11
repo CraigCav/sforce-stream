@@ -4,6 +4,7 @@
   "description": "Stream from Salesforce REST API in 2000 record batches",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p",
     "lint": "jscs ./"
   },
   "repository": {
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/craigcav/sforce-stream#readme",
   "devDependencies": {
-    "jscs": "^2.5.1"
+    "jscs": "^2.5.1",
+    "webpack": "^1.12.4"
   }
 }
