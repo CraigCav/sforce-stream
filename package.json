@@ -2,6 +2,7 @@
   "name": "sforce-stream",
   "version": "1.0.0",
   "description": "Stream from Salesforce REST API in 2000 record batches",
+  "main": "index.js",
   "scripts": {
     "lint": "jscs ./"
   },
