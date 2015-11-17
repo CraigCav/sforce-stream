@@ -49,8 +49,8 @@ function consume(reader, total) {
   return reader.read().then((res) => {
     const done = res.done, value = res.value;
     if (done) return;
-    total += value.length;
-    console.log("received " + value.length + " rows (" + total + " in total).");
+    total += value.records.length;
+    console.log("received " + value.records.length + " rows (" + total + " in total).");
     return consume(reader, total);
   })
 }
